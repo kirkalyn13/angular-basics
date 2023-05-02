@@ -1,0 +1,9 @@
+<div class="div">
+    <ul>
+        <li *ngFor="let todo of todos">
+            <span>{{ todo.title }}</span>
+            <br/>
+            <span>Status: {{ todo.completed ? "Completed" : "Pending" }}</span>
+        </li>
+    </ul>
+</div>
